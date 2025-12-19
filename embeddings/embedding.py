@@ -1,10 +1,7 @@
 import numpy as np 
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-import uuid
-from typing import List, Dict, Set , Tuple
-import chromadb
-from chromadb.config import Settings
+from typing import List
 
 
 class EmbeddingManager:
