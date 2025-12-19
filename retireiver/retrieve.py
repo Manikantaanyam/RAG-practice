@@ -63,5 +63,3 @@ class RAG_RETRIEVER:
 vector_store = VectorStore()
 embedding_manager = EmbeddingManager()
 rag_retreiver = RAG_RETRIEVER(vector_store,embedding_manager)
-print(rag_retreiver.retrieve(""" What is ‘training Set’ and ‘test Set’ in a Machine Learning Model? How Much Data Will You 
-Allocate for Your Training, Validation, and Test Sets"""))
